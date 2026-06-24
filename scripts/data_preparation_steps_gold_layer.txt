@@ -1,0 +1,14 @@
+Data integration steps to be followed while preparing data for gold layer:
+1.Analysing silver layer tables and analysing data model between sources CRM and ERP
+2.Choosing relevant tables based on business object(Customer or Product or Sales) and columns which connects them
+3.Choosing the master table 
+4.Choosing the right join type to connect to secondary tables  --Left Join in order to include rows  from crm which does not have match in erp 
+5.Checking for duplicates
+6.Checking for data consistency in relevant columns and choosing the right information --Eg: Choosing data between CRM gender and ERP gender if data varies
+7.Renaming columns to friendly names
+8.Structuring the order of columns based on relevance and importance
+9.Deciding whether the integrated table is a Fact Table or a Dimension Table
+10.Deciding on Primary Key (PK from source data or Surrogate Key)
+11.Creating Data Model (View) for Gold layer
+                                  Follow up with a quality check after creating View
+
