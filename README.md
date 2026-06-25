@@ -3,9 +3,9 @@
   The purpose of this project is to build a business-ready data warehouse from source systems through an ETL process, optimized for analytics and reporting. The end goal is to present a clean, transformed dataset structured around clear business objects such as Customers, Products, and Sales — enabling analysts and stakeholders to derive reliable insights. 
 
 This project involves:
-**Data Architecture:** Designing a Modern Data Warehouse using Medallion Architecture  (Bronze, Silver and Gold).
-**ETL Pipelines:** Extracting, transforming, and loading data from source systems into the warehouse
-**Data Modeling:** Developing fact and dimension tables optimized for analytical queries.
+-**Data Architecture:** Designing a Modern Data Warehouse using Medallion Architecture  (Bronze, Silver and Gold).
+-**ETL Pipelines:** Extracting, transforming, and loading data from source systems into the warehouse
+-**Data Modeling:** Developing fact and dimension tables optimized for analytical queries.
 
 
 ## Project Requirements
@@ -15,10 +15,10 @@ This project involves:
   Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical and insightful decision making.
 
 **Specifications:**
-**Data Sources:** Import data from two source systems (ERP and CRM) provided as CSV files.
-**Data Quality:** Cleanse and resolve data quality issues prior to integration 
-**Data Integration:** Combine the two source systems into a single user-friendly data model
-**Scope:** Focus on the latest dataset only; historization of data is not required.
+-**Data Sources:** Import data from two source systems (ERP and CRM) provided as CSV files.
+-**Data Quality:** Cleanse and resolve data quality issues prior to integration 
+-**Data Integration:** Combine the two source systems into a single user-friendly data model
+-**Scope:** Focus on the latest dataset only; historization of data is not required.
 
 
 ## Data Architecture
@@ -27,11 +27,11 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 
 ![Data Architecture](docs/data_architecture.png)
 
-**1. Bronze Layer:** Stores raw data from source systems. Data from the csv files is ingested into SQL Server Database.
+-**1. Bronze Layer:** Stores raw data from source systems. Data from the csv files is ingested into SQL Server Database.
 
-**2. Silver Layer:** This layer includes data cleansing, standardization and normalization processes to prepare data for analytics.
+-**2. Silver Layer:** This layer includes data cleansing, standardization and normalization processes to prepare data for analytics.
 
-**3. Gold Layer:** This layer stores the business ready data modeled into a star schema required for reporting and deriving insights.
+-**3. Gold Layer:** This layer stores the business ready data modeled into a star schema required for reporting and deriving insights.
 
 ## Repository Structure
 ```
