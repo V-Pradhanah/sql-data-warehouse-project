@@ -100,6 +100,8 @@ This project helped me understand the importance of handling missing and invalid
 
 I also understood the importance of communication between data analysts/engineers and source system experts. Decisions like choosing a "master" source for conflicting data (e.g., CRM vs ERP) should be made with input from the teams who own and understand that source system — this project helped me recognize when to clarify data inconsistencies with relevant stakeholders rather than making assumptions on my own.
 
+## Credits
+ This project was built while following Baraa Khatib Salkini’s The Complete SQL course on Udemy , adapted with my own implementation and documentation.
 
 ## Contact
 
